@@ -23,9 +23,6 @@ jobs:
       - name: Build project
         run: npm run build
 
-      - name: Export static site
-        run: npx next export
-
       - name: Add 404 fallback
         run: cp out/index.html out/404.html
 
