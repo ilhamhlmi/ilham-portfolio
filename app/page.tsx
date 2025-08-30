@@ -10,13 +10,14 @@ import tailwindLogo from "@/assets/images/skills/tailwind.png"
 import reactLogo from "@/assets/images/skills/react.png"
 import figmaLogo from "@/assets/images/skills/figma.png"
 import gitlabLogo from "@/assets/images/skills/gitlab.png"
+import NavbarClient from "./components/navbarClient";
 
 export default function Home() {
   return (
     <div>
       <Script src="/js/main.js" />
-
-      <header className="fixed z-50 bg-transparent backdrop-blur-lg w-full top-0 left-0 shadow-md flex items-center">
+      <NavbarClient/>
+      {/* <header className="fixed z-50 bg-transparent backdrop-blur-lg w-full top-0 left-0 shadow-md flex items-center">
         <div className="container mx-auto">
 
           <div className="flex justify-between items-center relative">
@@ -55,7 +56,7 @@ export default function Home() {
 
           </div>
         </div>
-      </header>
+      </header> */}
 
       <section id="hero" className="w-full min-h-screen flex items-center pt-16 sm:pt-0">
         <div className="container mx-auto flex flex-wrap justify-between items-center">
